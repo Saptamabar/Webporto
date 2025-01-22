@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="font-[Poppins]">
+    <header class="bg-gray-900 text-white p-4">
+        <nav class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">Portofolio</div>
+            <ul class="flex space-x-4">
+                <li><a href="#about" class="hover:text-gray-400">Tentang</a></li>
+                <li><a href="#projects" class="hover:text-gray-400">Proyek</a></li>
+                <li><a href="#contact" class="hover:text-gray-400">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero text-center py-20 bg-gray-800 text-white">
+        <h1 class="text-4xl font-bold">Halo, Saya <span class="text-blue-400">Nama Anda</span></h1>
+        <p class="mt-4 text-lg">Seorang Web Developer yang kreatif dan inovatif.</p>
+        <a href="#projects" class="mt-6 inline-block bg-blue-500 text-white px-6 py-3 rounded-full">Lihat Proyek</a>
+    </section>
+    
+    <section id="about" class="about py-20 container mx-auto text-center">
+        <h2 class="text-3xl font-semibold">Tentang Saya</h2>
+        <p class="mt-4 max-w-2xl mx-auto">Saya adalah seorang pengembang web dengan pengalaman dalam HTML, CSS, dan JavaScript...</p>
+    </section>
+
+    <section id="projects" class="projects py-20 bg-gray-100 text-center">
+        <h2 class="text-3xl font-semibold">Proyek Saya</h2>
+        <div class="mt-8 flex justify-center gap-8 flex-wrap">
+            <div class="project max-w-sm bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="project1.jpg" alt="Proyek 1" class="w-full">
+                <h3 class="text-xl font-semibold p-4">Proyek 1</h3>
+                <p class="px-4 pb-4">Deskripsi proyek...</p>
+            </div>
+            <div class="project max-w-sm bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="project2.jpg" alt="Proyek 2" class="w-full">
+                <h3 class="text-xl font-semibold p-4">Proyek 2</h3>
+                <p class="px-4 pb-4">Deskripsi proyek...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact py-20 text-center">
+        <h2 class="text-3xl font-semibold">Hubungi Saya</h2>
+        <p class="mt-4">Email: email@domain.com</p>
+        <p>Telepon: +62 812 3456 7890</p>
+    </section>
+
+    <footer class="bg-gray-900 text-white text-center p-4">
+        <p>&copy; 2025 Nama Anda. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
