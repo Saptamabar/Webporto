@@ -1,60 +1,209 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Saya</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Styleporto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <title>My portofolio</title>
 </head>
-<body class="font-[Poppins]">
-    <header class="bg-gray-900 text-white p-4">
-        <nav class="container mx-auto flex justify-between items-center">
-            <div class="text-2xl font-bold">Portofolio</div>
-            <ul class="flex space-x-4">
-                <li><a href="#about" class="hover:text-gray-400">Tentang</a></li>
-                <li><a href="#projects" class="hover:text-gray-400">Proyek</a></li>
-                <li><a href="#contact" class="hover:text-gray-400">Kontak</a></li>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <p id="clock">00:00:00</p></li>
+                <li><a href="#Hero"class="nav-link">home</a></li>
+                <li><a href="#Myexp" class="nav-link">about me</a></li>
+                <li>
+                    <a href="#Skill" class="nav-link" id="skilllink">Skills</a>
+                    <ul>
+                        <li><a href="#hardskill" class="nav-link">Hard Skill</a></li>
+                        <li><a href="#Softskill" class="nav-link">Soft Skill</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact" class="nav-link">contact</a></li>
             </ul>
         </nav>
     </header>
-    
-    <section class="hero text-center py-20 bg-gray-800 text-white">
-        <h1 class="text-4xl font-bold">Halo, Saya <span class="text-blue-400">Richie Aljuwon ts</span></h1>
-        <p class="mt-4 text-lg">Seorang Web Developer yang kreatif dan inovatif.</p>
-        <a href="#projects" class="mt-6 inline-block bg-blue-500 text-white px-6 py-3 rounded-full">Lihat Proyek</a>
-    </section>
-    
-    <section id="about" class="about py-20 container mx-auto text-center">
-        <h2 class="text-3xl font-semibold">Tentang Saya</h2>
-        <p class="mt-4 max-w-2xl mx-auto">Saya adalah seorang pengembang web dengan pengalaman dalam HTML, CSS, dan JavaScript...</p>
-    </section>
-
-    <section id="projects" class="projects py-20 bg-gray-100 text-center">
-        <h2 class="text-3xl font-semibold">Proyek Saya</h2>
-        <div class="mt-8 flex justify-center gap-8 flex-wrap">
-            <div class="project max-w-sm bg-white shadow-lg rounded-lg overflow-hidden">
-                <img src="project1.jpg" alt="Proyek 1" class="w-full">
-                <h3 class="text-xl font-semibold p-4">Proyek 1</h3>
-                <p class="px-4 pb-4">Deskripsi proyek...</p>
+    <main>
+        <img class="cloudbgkiri" src="img/Cloud 3 1.png" alt="">
+        <section id="Hero" class="section">
+            <!-- COL PERTAMA -->
+            <div class="col" id="col-hero2">
+                <img src="img/Foto_Porto.png" alt="gambar" width="350">
             </div>
-            <div class="project max-w-sm bg-white shadow-lg rounded-lg overflow-hidden">
-                <img src="project2.jpg" alt="Proyek 2" class="w-full">
-                <h3 class="text-xl font-semibold p-4">Proyek 2</h3>
-                <p class="px-4 pb-4">Deskripsi proyek...</p>
+            
+            <!-- COL KEDUA -->
+            <div class="col">
+                <div class="row">
+                    <h1>Hallo</h1>
+            <img class="cloudbgkiri" src="img/Cloud 1 1.png" alt="">
+
+                </div>
+                <div class="row">
+                    <h1>HALLO, 
+                        I’m Achmad Sapta Handoyo, Computer Science Student and Tech Enthusiat </h1> </div>
+                <div class="row-3">
+                <img class="cloudbgkanan" src="img/Cloud 1 1.png" alt="">
+                    <button id="BtnCV">Download My CV</button>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <img class="cloudbgkiri" id="cloud2" src="img/Cloud 2 1.png" alt="">
 
-    <section id="contact" class="contact py-20 text-center">
-        <h2 class="text-3xl font-semibold">Hubungi Saya</h2>
-        <p class="mt-4">Email: saptamabar@gmail.com</p>
-        <p>Telepon: +62 812 3456 7890</p>
-    </section>
+        <section id="Myexp" class="section">
+            <h1>My Experience</h1>
+            <img class="cloudbgkanan" src="img/Cloud 1 1.png" alt="">
+            <img class="cloudbgkiri" id="cloud2" src="img/Cloud 2 1.png" alt="">
 
-    <footer class="bg-gray-900 text-white text-center p-4">
-        <p>&copy; 2025 Nama Anda. Semua Hak Dilindungi.</p>
-    </footer>
+            <div class="card-container">
+                <div class="card">
+                        <img src="img/Myexp-1.png" alt="hadeh" width="200">
+                        <h2>Information System Competition equipment staff</h2>
+                        <p>2024 - HIMPUNAN MAHASISWA SISTEM INFORMASI (HIMASIF)</p>
+                    </div>
+            
+                    <div class="card">
+                        <img src="img/Myexp-2.png" alt="hadeh" width="200">
+                        <h2>Serigala System Informasi Public Relation</h2>
+                        <p>2024 - HIMPUNAN MAHASISWA SISTEM INFORMASI (HIMASIF)</p>
+                    </div>
+        
+                    <div class="card">
+                        <img src="img/Myexp-3.png" alt="hadeh" width="200">
+                        <h2>Linux  Training Camp Event Staff</h2>
+                        <p>2024 - UKM LAOS, FAKULTAS ILMU KOMPUTER</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/Myexp-4.png" alt="hadeh" width="200">
+                        <h2>Git  Training Camp Documentation Staff</h2>
+                        <p>2024 - UKM LAOS, FAKULTAS ILMU KOMPUTER</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/Myexp-5.png" alt="hadeh" width="200">
+                        <h2>KPUM FASILKOM Event Staff</h2>
+                        <p>2024 - BADAN PERWAKILAN MAHASISWA (BPM)</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/Myexp-6.png" alt="hadeh" width="200">
+                        <h2>SHARING WITH PELITA Public Relation</h2>
+                        <p>2024 - UKM PELITA, UNIVERSITAS JEMBER</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/Myexp-7.png" alt="hadeh" width="200">
+                        <h2>Software Engginer Laboratory Assistant</h2>
+                        <p>2024 - RYPERLAB, FAKULTAS ILMU KOMPUTER</p>
+                    </div>
+                </div>
+            </section>
+            <img class="cloudbgkanan" src="img/Cloud 1 1.png" alt="">
+            <section id="Skill" class="section">
+        <section id="hardskill"  class="section">
+            <img class="cloudbgkanan" src="img/Cloud 1 1.png" alt="">
+            
+            <h1>Hard Skills</h1>
+            <img class="cloudbgkiri" id="cloud2" src="img/Cloud 2 1.png" alt="">
+            <div class="hardskills">
+                <img src="img/python.png" alt="">
+                <img src="img/c-sharp.png" alt="">
+                <img src="img/html.png" alt="">
+                <img src="img/css-3.png" alt="">
+                <img src="img/js.png" alt="">
+                <img src="img/postgre.png" alt="">
+                <img src="img/figma.png" alt="">
+                <img src="img/github-mark.png" alt="">
+                <img class="cloudbgkanan" src="img/Cloud 1 1.png" alt="">
+            <img class="cloudbgkiri" id="cloud2" src="img/Cloud 2 1.png" alt="">
+
+
+            </div>
+            <img class="cloudbgkanan" src="img/Cloud 1 1.png" alt="">
+            <img class="cloudbgkiri" id="cloud2" src="img/Cloud 2 1.png" alt="">
+
+        </section>
+        <section id="Softskill"class="section">
+            <h1>Soft Skills</h1>
+            <img class="cloudbgkanan" src="img/Cloud 1 1.png" alt="">
+            <img class="cloudbgkiri" id="cloud2" src="img/Cloud 2 1.png" alt="">
+            
+            <div class="Softskill-container">
+                <div class="Softskillcard">
+                    <h2>Collaboration & Teamwork</h2>
+                    <p>Ability to work well with teams and contribute to group success</p>
+                </div>
+                <div class="Softskillcard">
+                    <h2>Problem-Solving</h2>
+                    <p>Analytical thinking and creativity to overcome challenges.</p>
+                </div>
+                <div class="Softskillcard">
+                    <h2>Time Management</h2>
+                    <p>Prioritizing and managing tasks efficiently.</p>
+                </div>
+                <div class="Softskillcard">
+                    <h2>Communication</h2>
+                    <p>Clear and effective messaging in writing, presentations, or interpersonal interactions.</p>
+                </div>
+            </div>
+            <img class="cloudbgkanan" src="img/Cloud 1 1.png" alt="">
+            <img class="cloudbgkiri" id="cloud2" src="img/Cloud 2 1.png" alt="">
+        </section>
+    </section>
+        <section id="contact" class="section">
+            <h1>Contact</h1>
+            <img class="cloudbgkanan" src="img/Cloud 1 1.png" alt="">
+            <img class="cloudbgkiri" id="cloud2" src="img/Cloud 2 1.png" alt="">
+            <div class="contact-container">
+                <button onclick="location.href='https://www.instagram.com/sapta__t?igsh=MThwNDRhcGVxeXVrOQ=='">
+                    <img src="img/instagram_pixel_logo_icon_181922.png" alt="">
+                    Instagram
+                </button>
+                <button onclick="location.href='https://www.linkedin.com/in/achmad-sapta'">
+                    <img src="img/linkedin_pixel_logo_icon_181925.png" alt="">
+                    Linkdn
+                </button>
+                <button onclick="location.href='https://wa.me/6281230487338'">
+                    <img src="img/whatsapp_pixel_logo_icon_181923.png" alt="">
+                    Whatsapp
+                </button>
+            </div>
+            <img class="cloudbgkanan" src="img/Cloud 1 1.png" alt="">
+            <img class="cloudbgkiri" id="cloud2" src="img/Cloud 2 1.png" alt="">
+        </section>
+  
+        <section id="sendMessage" class="section">
+            <div class="contact">
+                <h1>Send Me A Message</h1>
+                <form action="https://formsubmit.co/ab158fb2a8aed5e8d1baa5931af37636" method="POST">
+                    <!-- Name -->
+                    <label for="Name">Name :</label>
+                    <input type="text" name="name" required>
+                    <!-- Email -->
+                    <label for="Email">Email :</label>
+                    <input type="email" name="email" required>
+                    <div class="cloudcontainer">   
+                        <img class="cloudbgkanan" src="img/Cloud 1 1.png" alt="">
+                        <img class="cloudbgkiri" id="cloud2" src="img/Cloud 2 1.png" alt="">    
+                    </div>
+                    <!-- TextArea -->
+                    <label for="Messages">Messages :</label>
+                    <textarea name="message" rows="6" required></textarea>
+                    <Button type="submit" name="_next" value="http://127.0.0.1:5500/porto.html">Submit Form</Button>
+                </form>
+           </div>
+           
+        </section>
+        
+        <footer class="footer">
+            <div class="footercontent">
+                <img src="img/Alpha c (1).png" alt="">
+                <p>
+                    Copyright Achmad Sapta Handoyo. All Rights Reserved
+                </p>
+            </div>
+        </footer>
+    </main>
+    <script src="app.js"></script>
 </body>
 </html>
